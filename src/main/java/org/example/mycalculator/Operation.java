@@ -1,8 +1,8 @@
 package org.example.mycalculator;
 
 public abstract class Operation {
-    private Operand operand1;
-    private Operand operand2;
+    private final Operand operand1;
+    private final Operand operand2;
 
     public Operation(Operand operand1, Operand operand2) {
         this.operand1 = operand1;

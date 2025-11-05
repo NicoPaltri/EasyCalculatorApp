@@ -8,7 +8,11 @@ public class DivisionOperation extends TwoOperandOperation {
         super(operand1, operand2);
     }
 
-    protected double executeCalc() {
+    protected double executeCalc() throws IllegalArgumentException {
+        if (super.getOperand2().getValue() == 0) {
+            throw new IllegalArgumentException("Il divisore è 0");
+        }
+
         return super.getOperand1().getValue() / super.getOperand2().getValue();
     }
 }

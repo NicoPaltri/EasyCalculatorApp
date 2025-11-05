@@ -5,7 +5,7 @@ public class NumberButton {
         if (operand1.isNotValid()) {
             operand1.setValue(number);
             operand2.setValidity(false);
-        } else {
+        } else if (operand2.isNotValid()) {
             operand2.setValue(number);
         }
     }

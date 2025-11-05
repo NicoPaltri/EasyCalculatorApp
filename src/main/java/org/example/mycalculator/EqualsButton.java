@@ -1,9 +1,7 @@
 package org.example.mycalculator;
 
-import java.util.Optional;
-
 public class EqualsButton {
-    private Operand result;
+    private final Operand result;
     private int operationNumber;
 
     public EqualsButton(Operand result) {

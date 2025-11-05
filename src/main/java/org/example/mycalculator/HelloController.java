@@ -1,8 +1,6 @@
 package org.example.mycalculator;
 
-import javafx.beans.property.SimpleStringProperty;
 import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
@@ -43,13 +41,16 @@ public class HelloController {
 
         LabelOperand1.textProperty().bind(calculator.getOperand1().displayProperty());
         LabelOperand2.textProperty().bind(calculator.getOperand2().displayProperty());
-        LabelOperandResult.textProperty().bind(calculator.getResult().displayProperty());    }
+        LabelOperandResult.textProperty().bind(calculator.getResult().displayProperty());
+    }
 
     public void EqualsButtonOnAction(ActionEvent actionEvent) {
         try {
             equalsButton.executeOperation();
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            calculator.getOperand1().setValidity(false);
+            calculator.getOperand2().setValidity(false);
+            calculator.getResult().setValidity(false);
         }
     }
 
