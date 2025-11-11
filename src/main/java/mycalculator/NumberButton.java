@@ -1,4 +1,4 @@
-package org.example.mycalculator;
+package mycalculator;
 
 public class NumberButton {
     public static void setPressedValue(int number, Operand operand1, Operand operand2) {

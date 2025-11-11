@@ -1,7 +1,7 @@
-package org.example.mycalculator.OperationImplementations;
+package mycalculator.OperationImplementations;
 
-import org.example.mycalculator.Operand;
-import org.example.mycalculator.TwoOperandOperation;
+import mycalculator.Operand;
+import mycalculator.TwoOperandOperation;
 
 public class SubtractionOperation extends TwoOperandOperation {
     public SubtractionOperation(Operand operand1, Operand operand2) {

@@ -1,5 +1,6 @@
-package org.example.mycalculator;
+package mycalculator;
 
+import mycalculator.OperationImplementations.*;
 import org.example.mycalculator.OperationImplementations.*;
 
 import java.util.Map;

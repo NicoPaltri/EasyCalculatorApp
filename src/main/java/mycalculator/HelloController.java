@@ -1,4 +1,4 @@
-package org.example.mycalculator;
+package mycalculator;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;

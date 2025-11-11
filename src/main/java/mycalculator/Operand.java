@@ -1,4 +1,4 @@
-package org.example.mycalculator;
+package mycalculator;
 
 import javafx.beans.binding.Bindings;
 import javafx.beans.property.*;

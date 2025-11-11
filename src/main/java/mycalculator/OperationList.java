@@ -1,4 +1,4 @@
-package org.example.mycalculator;
+package mycalculator;
 
 public enum OperationList {
     ADDITION(1),

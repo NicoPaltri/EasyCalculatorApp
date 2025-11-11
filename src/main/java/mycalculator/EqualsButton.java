@@ -1,4 +1,4 @@
-package org.example.mycalculator;
+package mycalculator;
 
 public class EqualsButton {
     private final Operand result;

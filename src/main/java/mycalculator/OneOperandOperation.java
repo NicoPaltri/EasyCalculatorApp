@@ -1,4 +1,4 @@
-package org.example.mycalculator;
+package mycalculator;
 
 public abstract class OneOperandOperation extends Operation {
 

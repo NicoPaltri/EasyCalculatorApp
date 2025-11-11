@@ -1,7 +1,7 @@
-package org.example.mycalculator.OperationImplementations;
+package mycalculator.OperationImplementations;
 
-import org.example.mycalculator.OneOperandOperation;
-import org.example.mycalculator.Operand;
+import mycalculator.OneOperandOperation;
+import mycalculator.Operand;
 
 public class SquaredPowOperation extends OneOperandOperation {
     public SquaredPowOperation(Operand operand1, Operand operand2) {
